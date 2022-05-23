@@ -97,7 +97,7 @@ const Home = () => {
       ) : (
         <>
           <Typography variant="h4" mb={2}>
-            Anasayfa
+            Ana Sayfa
           </Typography>
           <Box
             display={"flex"}

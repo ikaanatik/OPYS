@@ -25,7 +25,7 @@ const MuiBottomNavigation = () => {
       }}
     >
       <Link href={"/"}>
-        <BottomNavigationAction label="Anasayfa" showLabel icon={<Home />} />
+        <BottomNavigationAction label="Ana Sayfa" showLabel icon={<Home />} />
       </Link>
       <Link href={"/groups"}>
         <BottomNavigationAction showLabel label="Gruplar" icon={<Group />} />

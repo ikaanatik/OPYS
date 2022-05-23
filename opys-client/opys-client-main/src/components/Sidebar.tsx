@@ -36,7 +36,7 @@ const Sidebar = () => {
                 <ListItemIcon>
                   <Home />
                 </ListItemIcon>
-                <ListItemText primary="Anasayfa" />
+                <ListItemText primary="Ana Sayfa" />
               </ListItem>
             </ListItemButton>
             <ListItemButton onClick={(e) => router.push("/groups")}>
