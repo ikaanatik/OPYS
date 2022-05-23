@@ -1,0 +1,47 @@
+{
+  "name": "Server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "repository": "https://github.com/Skipperlla/Server.git",
+  "author": "Skipperlla <68515357+Skipperlla@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "node app",
+    "dev": "nodemon app"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.2",
+    "aws-sdk": "^2.1116.0",
+    "axios": "^0.26.1",
+    "bad-words": "^3.0.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.3.0",
+    "geoip-lite": "^1.4.4",
+    "helmet": "^5.0.2",
+    "hpp": "^0.2.3",
+    "http-status": "^1.5.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.2.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0",
+    "nodemailer": "^6.7.4",
+    "randomstring": "^1.2.2",
+    "uuid": "^8.3.2",
+    "web-push": "^3.5.0",
+    "winston": "^3.6.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
