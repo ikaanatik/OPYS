@@ -14,9 +14,10 @@ const Main: FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <React.Fragment>
       {isLoggedIn ? (
-        <Box minHeight={"100vh"}>
+        <Box minHeight={"100vh"} id="test"
+        sx={{color: "#111e43", background:"white"}}>
           <Navbar />
-          <Stack direction={"row"} justifyContent={"space-between"}>
+          <Stack direction={"row"} justifyContent={"space-between"}  sx={{color: "#111e43"}}>
             <Sidebar />
             <MuiBottomNavigation />
             {children}
